@@ -17,6 +17,7 @@ License:   GPL
 URL:       http://krecipes.sourceforge.net/
 Group:     Toys
 Source:    http://ovh.dl.sourceforge.net/sourceforge/krecipes/%name-%version.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: kdelibs-devel >= 3.2
 BuildRequires: sqlite-devel
 Requires: kdelibs-common
