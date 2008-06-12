@@ -32,11 +32,15 @@ The goal of this projects was to create a KDE Recipe Tool that:
     * Should be as flexible as possible to have the possibility to 
 		extend it in future.
 
+%if %mdkversion < 200900
 %post
 %{update_menus}
+%endif
 
+%if %mdkversion < 200900
 %postun
 %{clean_menus}
+%endif
 
 %files 
 #-f %{name}.lang
