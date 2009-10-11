@@ -20,18 +20,10 @@ BuildRequires: mysql-devel
 BuildRequires: postgresql-devel
 
 %description
-Krecipes is a new Open Source project for an exciting world 
-that is almost forgotten in the Tux world: COOKING (yummy! ;-)
-
-The goal of this projects was to create a KDE Recipe Tool that:
-
-    * Can manage a recipe database with an easy to use interface
-    * Allows creation/removal of new ingredients and units
-    * Helps with diets, calculating amount of calories, 
-		vitamines, carbohydrates... per recipe
-    * Creates shopping lists, and daily suggestions for a given diet type
-    * Should be as flexible as possible to have the possibility to 
-		extend it in future.
+A highly configurable recipe manager, designed to make organizing your
+personal recipes collection fast and easy. Features include: shopping
+lists, nutrient analysis, advanced search, recipe ratings, import/export
+various formats, and more.
 
 %files -f %name.lang
 %defattr(-,root,root)
