@@ -1,6 +1,6 @@
 %define name    krecipes
 %define version 2.0
-%define svn alpha3
+%define svn alpha4
 %define release %mkrel 0.%svn.1
 
 Name:      %{name}
