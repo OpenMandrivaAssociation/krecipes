@@ -6,7 +6,7 @@
 Name:      %{name}
 Version:   %{version}
 Release:   %{release}
-Summary:   Krecipes - Your Way to Cook with Tux 
+Summary:   - Your Way to Cook with Tux 
 License:   GPLv2+
 URL:       http://krecipes.sourceforge.net/
 Group:     Toys
