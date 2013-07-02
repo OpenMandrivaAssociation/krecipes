@@ -1,17 +1,13 @@
-%define name    krecipes
-%define version 2.0
 %define svn beta1
-%define release %mkrel 0.%svn.1
 
-Name:      %{name}
-Version:   %{version}
-Release:   %{release}
-Summary:   - Your Way to Cook with Tux 
+Name:      krecipes
+Version:   2.0
+Release:   0.%{svn}.2
+Summary:   Your Way to Cook with Tux 
 License:   GPLv2+
 URL:       http://krecipes.sourceforge.net/
 Group:     Toys
 Source:    http://ovh.dl.sourceforge.net/sourceforge/krecipes/%name-%version-%svn.tar.gz
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: kdelibs4-devel
 BuildRequires: sqlite3-devel
 BuildRequires: qimageblitz-devel
@@ -36,7 +32,7 @@ various formats, and more.
 #--------------------------------------------------------------------
 
 %prep
-%setup -q -n %name-%version-%svn
+%setup -q -n %{name}-%{version}-%{svn}
 
 %build
 %cmake_kde4
@@ -49,7 +45,6 @@ rm -rf %buildroot
 %find_lang %name --with-html
 
 %clean
-rm -rf %{buildroot}
 
 
 %changelog
