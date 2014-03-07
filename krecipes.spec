@@ -10,8 +10,9 @@ Url:		http://krecipes.sourceforge.net/
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/krecipes/%{name}-%{version}-%{svn}.tar.gz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:	pkgconfig(libxslt)
 BuildRequires:	pkgconfig(qimageblitz)
-BuildRequires:	pkgconfig(sqlite3)
+BuildRequires:	pkgconfig(sqlite)
 BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 
