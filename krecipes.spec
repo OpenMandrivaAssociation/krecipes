@@ -6,7 +6,7 @@ Version:	2.0
 Release:	0.%{svn}.3
 License:	GPLv2+
 Group:		Toys
-Url:		http://krecipes.sourceforge.net/
+Url:		https://krecipes.sourceforge.net/
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/krecipes/%{name}-%{version}-%{svn}.tar.gz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(libxml-2.0)
